@@ -2,7 +2,7 @@
 class personas_modelo{
 	private $db;
 	private $personas;
-	public function __contruct(){
+	public function __construct(){
 		$this->db=Conectar::conexion();
 		$this->personas=array();
 	}
@@ -15,6 +15,3 @@ class personas_modelo{
 	}
 }
 
-
-
- ?>
