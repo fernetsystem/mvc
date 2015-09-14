@@ -1,10 +1,4 @@
-<DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<title>Nombre y edad</title>
-</head>
-<body>
+<?php include "inc/header.inc"; ?>
 	<table>
 		<tr>
 			<td>Nombre</td>
@@ -17,5 +11,4 @@
 		}
 		?>
 	</table>
-</body>
-</html>
+<?php include "inc/footer.inc"; ?>
